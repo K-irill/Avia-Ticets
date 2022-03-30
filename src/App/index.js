@@ -9,7 +9,7 @@ const App = observer(() => {
     <div className="wrapper">
       <header>
         <div className="logo">
-          <img src="/images/Logo.png" width={60} height={60} alt="Logo" />
+          <img src="./images/Logo.png" width={60} height={60} alt="Logo" />
         </div>
       </header>
       <div className="content">
