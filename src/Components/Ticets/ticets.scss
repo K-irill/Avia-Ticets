@@ -1,0 +1,118 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.ticets {
+  width: 462px;
+  height: 144px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 20px;
+
+  .header-logo-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      color: #2196f3;
+    }
+  }
+
+  .departure {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .header-departure {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #a0b0b9;
+    }
+
+    .time {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #4a4a4a;
+    }
+
+    .city-time {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+
+    .travel-time {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+
+    .number-of-transfers {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+  }
+
+  .return-flight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .header-departure {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: #a0b0b9;
+    }
+
+    .time {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #4a4a4a;
+    }
+
+    .city-time {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+
+    .travel-time {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+
+    .number-of-transfers {
+      display: flex;
+      flex-direction: column;
+      width: 141px;
+    }
+  }
+}
